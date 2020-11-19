@@ -1,9 +1,10 @@
-<p>get-student-list works!</p>
-
 <div class="box">
     <h3>NOMBRES</h3>
     <h3>APELLIDO</h3>
     <h3>FECHA_NACIMIENTO</h3>
+    <h3>TELEFONO</h3>
+    <h3>EMAIL</h3>
+    <h3>DIRECCION</h3>
 </div>
 
 <div class="box" *ngFor="let data of responseData">
@@ -13,7 +14,27 @@
     <div class="apellidos">
         <span>{{data.APELLIDO}}</span>
     </div>
-    <div class="apellidos">
+    <div class="fechanacimiento">
         <span>{{data.FECHA_NACIMIENTO}}</span>
+    </div>
+    <div class="telefono">
+        <span>{{data.TELEFONO}}</span>
+    </div>
+    <div class="email">
+        <span>{{data.EMAIL}}</span>
+    </div>
+    <div class="direccion">
+        <span>{{data.DIRECCION}}</span>
+    </div>
+</div>
+
+<div class="box">
+    <h3>NOM_UNIVERSIDAD</h3>
+    <h3>ID_UNIVERSIDAD</h3>
+</div>
+
+<div class="box" *ngFor="let dataCollage of responseCollage">
+    <div class="universidad">
+        <span>{{dataCollage.NOM_UNIVERSIDAD}}</span>
     </div>
 </div>
