@@ -1,6 +1,588 @@
 
-.box {
-    width: 100%;
+// .box {
+//     width: 100%;
+//     display: flex;
+//     justify-content: space-evenly;
+// }
+
+h2 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.boxMainLvl1{
+    width: 100%;
+    height: 54rem;
+    background-color: darkcyan;
+    .boxRaccon{
+        display: flex;
+        position: absolute;
+        width: 100%;
+        height: 50rem;
+        .box1{
+            width: 200px;
+            height: 50px;
+            img.redRaccoon {
+                border: 4px solid red;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+            img.blueRaccoon {
+                border: 4px solid blue;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+            img.yellowRaccoon {
+                border: 4px solid yellow;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+        }
+    }
+    .boxWater {
+        width: 100%;
+        height: 50rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        .box2{
+            width: 200px;
+            height: 50px;
+            img.redWater {
+                border: 4px solid red;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+            img.blueWater {
+                border: 4px solid blue;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+            img.yellowWater {
+                border: 4px solid yellow;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+        }
+    }
+    > button.level {
+        border-radius: 20px;
+        color: black;
+        width: 150px;
+        height: 50px;
+    }
+}
+.boxMainLvl2{
+    width: 100%;
+    height: 54rem;
+    background-color: darkcyan;
+    .boxRaccon{
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        width: 100%;
+        height: 50rem;
+        .box1{
+            width: 200px;
+            height: 50px;
+            img.redRaccoon {
+                border: 4px solid red;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+            img.blueRaccoon {
+                border: 4px solid blue;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+            img.yellowRaccoon {
+                border: 4px solid yellow;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+        }
+    }
+    .boxWater {
+        width: 100%;
+        height: 50rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .box2{
+            width: 200px;
+            height: 50px;
+            img.redWater {
+                border: 4px solid red;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+            img.blueWater {
+                border: 4px solid blue;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+            img.yellowWater {
+                border: 4px solid yellow;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+        }
+    }
+    > button.level {
+        border-radius: 20px;
+        color: black;
+        width: 150px;
+        height: 50px;
+    }
+}
+.boxMainLvl3{
+    width: 100%;
+    height: 54rem;
+    background-color: darkcyan;
+    .boxRaccon{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        position: absolute;
+        width: 100%;
+        height: 50rem;
+        .box1{
+            width: 200px;
+            height: 50px;
+            img.redRaccoon {
+                border: 4px solid red;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+            img.blueRaccoon {
+                border: 4px solid blue;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+            img.yellowRaccoon {
+                border: 4px solid yellow;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+        }
+    }
+    .boxWater {
+        width: 100%;
+        height: 50rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        .box2{
+            width: 200px;
+            height: 50px;
+            img.redWater {
+                border: 4px solid red;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+            img.blueWater {
+                border: 4px solid blue;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+            img.yellowWater {
+                border: 4px solid yellow;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+        }
+    }
+    > button.level {
+        border-radius: 20px;
+        color: black;
+        width: 150px;
+        height: 50px;
+    }
+}
+.boxMainLvl4{
+    width: 100%;
+    height: 54rem;
+    background-color: darkcyan;
+    .boxRaccon{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+        position: absolute;
+        width: 100%;
+        height: 50rem;
+        .box1{
+            width: 200px;
+            height: 50px;
+            img.redRaccoon {
+                border: 4px solid red;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+            img.blueRaccoon {
+                border: 4px solid blue;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+            img.yellowRaccoon {
+                border: 4px solid yellow;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+        }
+    }
+    .boxWater {
+        width: 100%;
+        height: 50rem;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        .box2{
+            width: 200px;
+            height: 50px;
+            img.redWater {
+                border: 4px solid red;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+            img.blueWater {
+                border: 4px solid blue;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+            img.yellowWater {
+                border: 4px solid yellow;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+        }
+    }
+    > button.level {
+        border-radius: 20px;
+        color: black;
+        width: 150px;
+        height: 50px;
+    }
+}
+.boxMainLvl5{
+    width: 100%;
+    height: 54rem;
+    background-color: darkcyan;
+    .boxRaccon{
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        width: 100%;
+        height: 50rem;
+        .box1{
+            width: 200px;
+            height: 50px;
+            img.redRaccoon {
+                border: 4px solid red;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+        }
+        .box2{
+            width: 200px;
+            height: 50px;
+            img.blueRaccoon {
+                border: 4px solid blue;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+        }
+        .box3{
+            width: 200px;
+            height: 50px;
+            img.yellowRaccoon {
+                border: 4px solid yellow;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+        }
+    }
+    .boxWater {
+        width: 100%;
+        height: 50rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .box4{
+            width: 200px;
+            height: 50px;
+            align-self: baseline;
+            img.redWater {
+                border: 4px solid red;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+
+            }
+        }
+        .box5{
+            width: 200px;
+            height: 50px;
+            order: -1;
+            img.blueWater {
+                border: 4px solid blue;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+
+            }
+        }
+        .box6{
+            width: 200px;
+            height: 50px;
+            img.yellowWater {
+                border: 4px solid yellow;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+        }
+    }
+    > button.level {
+        border-radius: 20px;
+        color: black;
+        width: 150px;
+        height: 50px;
+    }
+}
+.boxMainLvl6{
+    width: 100%;
+    height: 54rem;
+    background-color: darkcyan;
+    .boxRaccon{
+        display: flex;
+        position: absolute;
+        width: 100%;
+        height: 50rem;
+        .box1{
+            width: 200px;
+            height: 50px;
+            img.redRaccoon {
+                border: 4px solid red;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+        }
+        .box2{
+            width: 200px;
+            height: 50px;
+            img.blueRaccoon {
+                border: 4px solid blue;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+        }
+        .box3{
+            width: 200px;
+            height: 50px;
+            img.yellowRaccoon {
+                border: 4px solid yellow;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+        }
+    }
+    .boxWater {
+        width: 100%;
+        height: 50rem;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        .box4{
+            width: 200px;
+            height: 50px;
+            align-self: center;
+            img.redWater {
+                border: 4px solid red;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+
+            }
+        }
+        .box5{
+            width: 200px;
+            height: 50px;
+            align-self: start;
+            img.blueWater {
+                border: 4px solid blue;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+
+            }
+        }
+        .box6{
+            width: 200px;
+            height: 50px;
+            order: -1;
+            img.yellowWater {
+                border: 4px solid yellow;
+                border-radius: 50%;
+                max-width: 100%;
+                display: block;
+                height: auto;
+            }
+        }
+    }
+    > button.level {
+        border-radius: 20px;
+        color: black;
+        width: 150px;
+        height: 50px;
+    }
+}
+.boxMainLvl7{
+    width: 100%;
+    height: 54rem;
+    background-color: darkcyan;
+    .boxRaccon{
+        width: 100%;
+        height: 15rem;
+        .formulario{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            .ctn1{
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                .boxname{
+                    display: flex;
+                    flex-direction: column;
+                }
+                .box2name{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+            .ctn2{
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                .boxlastname{
+                    display: flex;
+                    flex-direction: column;
+                }
+                .box2lastname{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+    .boxWater {
+        width: 100%;
+        height: 15rem;
+        background-color: darkcyan;
+        .formulario{
+            height: 100%;
+            width: 100%;
+            .ctn1{
+                .boxname{
+                }
+                .box2name{
+                }
+            }
+            .ctn2{
+                .boxlastname{
+                }
+                .box2lastname{
+
+                }
+            }
+        }
+    }
+    > button.level {
+        border-radius: 20px;
+        color: black;
+        width: 150px;
+        height: 50px;
+    }
+}
+.endGame{
+    width: 100%;
+    height: 70rem;
+    > button.level {
+        border-radius: 20px;
+        color: black;
+        width: 150px;
+        height: 50px;
+    }
 }
