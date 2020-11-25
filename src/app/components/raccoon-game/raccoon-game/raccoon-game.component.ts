@@ -1,41 +1,28 @@
 import { Component, OnInit } from '@angular/core';
-import { GetCollageListService } from 'src/app/providers/getCollageList/get-collage-list.service';
-import { GetStudentListService } from 'src/app/providers/getStudentList/get-student-list.service';
 
 @Component({
-  selector: 'app-get-student-list',
-  templateUrl: './get-student-list.component.html',
-  styleUrls: ['./get-student-list.component.scss']
+  selector: 'app-raccoon-game',
+  templateUrl: './raccoon-game.component.html',
+  styleUrls: ['./raccoon-game.component.scss']
 })
-export class GetStudentListComponent implements OnInit {
+export class RaccoonGameComponent implements OnInit {
 
-  constructor(private readonly getStudentListService: GetStudentListService,
-              private readonly getCollageListService: GetCollageListService) { }
+  constructor() { }
 
 
   public responseData: any;
   public responseCollage: any;
-  public level1 = false;
+  public level1 = true;
   public level2 = false;
   public level3 = false;
   public level4 = false;
   public level5 = false;
-  public level6 = true;
+  public level6 = false;
   public level7 = false;
   public level8 = false;
 
-  ngOnInit() {
-    /*
-    this.getStudentListService.getStudentList().subscribe( (data) => {
-      console.log(data);
-      this.responseData = data;
-    });
 
-    this.getCollageListService.getStudentList().subscribe( (data) => {
-      console.log(data);
-      this.responseCollage = data;
-    });
-    */
+  ngOnInit() {
   }
 
   nextLevel(lvl) {
@@ -72,5 +59,4 @@ export class GetStudentListComponent implements OnInit {
       this.level7 = false;
     }
   }
-
 }

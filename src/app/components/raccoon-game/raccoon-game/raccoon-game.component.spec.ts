@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GetStudentListComponent } from './get-student-list.component';
+import { RaccoonGameComponent } from './raccoon-game.component';
 
-describe('GetStudentListComponent', () => {
-  let component: GetStudentListComponent;
-  let fixture: ComponentFixture<GetStudentListComponent>;
+describe('RaccoonGameComponent', () => {
+  let component: RaccoonGameComponent;
+  let fixture: ComponentFixture<RaccoonGameComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ GetStudentListComponent ]
+      declarations: [ RaccoonGameComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(GetStudentListComponent);
+    fixture = TestBed.createComponent(RaccoonGameComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
