@@ -15,12 +15,12 @@ export class GetStudentListComponent implements OnInit {
 
   public responseData: any;
   public responseCollage: any;
-  public level1 = false;
+  public level1 = true;
   public level2 = false;
   public level3 = false;
   public level4 = false;
   public level5 = false;
-  public level6 = true;
+  public level6 = false;
   public level7 = false;
   public level8 = false;
 
